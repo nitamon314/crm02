@@ -30,7 +30,6 @@ Post.create(position_name: "平社員")
     family_name: family_name,
     given_name: given_name,
     email: email,
-    image_url: image_url,
     company_id: rand(1..3),
     post_id: rand(1..4)
   )
